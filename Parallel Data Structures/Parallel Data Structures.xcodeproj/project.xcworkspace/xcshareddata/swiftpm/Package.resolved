@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CAtomics",
+        "repositoryURL": "https://github.com/glessard/CAtomics",
+        "state": {
+          "branch": null,
+          "revision": "411cfd34a92cc892c3c8b196038596b24255d1c5",
+          "version": "6.5.1"
+        }
+      },
+      {
+        "package": "SwiftAtomics",
+        "repositoryURL": "https://github.com/glessard/swift-atomics.git",
+        "state": {
+          "branch": null,
+          "revision": "39c855f5fbbf30de8dcd517672f9d53499b6c03b",
+          "version": "6.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
