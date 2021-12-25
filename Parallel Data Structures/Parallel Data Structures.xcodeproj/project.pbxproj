@@ -19,6 +19,9 @@
 		C4403E762776FA270002C5FA /* CASAtomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E752776FA260002C5FA /* CASAtomic.swift */; };
 		C4403E782776FEF30002C5FA /* SynchronizedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E772776FEF30002C5FA /* SynchronizedArray.swift */; };
 		C4403E7A27770B230002C5FA /* NonBlockingLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E7927770B230002C5FA /* NonBlockingLinkedList.swift */; };
+		C4403E7C277712140002C5FA /* CallCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E7B277712140002C5FA /* CallCenter.swift */; };
+		C4403E7E277712700002C5FA /* OperatorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E7D277712700002C5FA /* OperatorState.swift */; };
+		C4403E8027771D580002C5FA /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4403E7F27771D580002C5FA /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +49,9 @@
 		C4403E752776FA260002C5FA /* CASAtomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASAtomic.swift; sourceTree = "<group>"; };
 		C4403E772776FEF30002C5FA /* SynchronizedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedArray.swift; sourceTree = "<group>"; };
 		C4403E7927770B230002C5FA /* NonBlockingLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonBlockingLinkedList.swift; sourceTree = "<group>"; };
+		C4403E7B277712140002C5FA /* CallCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCenter.swift; sourceTree = "<group>"; };
+		C4403E7D277712700002C5FA /* OperatorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorState.swift; sourceTree = "<group>"; };
+		C4403E7F27771D580002C5FA /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				C4403E73277671440002C5FA /* BankAccount.swift */,
+				C4403E7B277712140002C5FA /* CallCenter.swift */,
+				C4403E7D277712700002C5FA /* OperatorState.swift */,
+				C4403E7F27771D580002C5FA /* Client.swift */,
 			);
 			path = Actors;
 			sourceTree = "<group>";
@@ -170,11 +179,14 @@
 				C4403E64277663240002C5FA /* SkipList.swift in Sources */,
 				C4403E7127766D690002C5FA /* OSAtomicNode.swift in Sources */,
 				C4403E7A27770B230002C5FA /* NonBlockingLinkedList.swift in Sources */,
+				C4403E7C277712140002C5FA /* CallCenter.swift in Sources */,
 				C4403E6F27766CEA0002C5FA /* LockFreeNode.swift in Sources */,
 				C4403E762776FA270002C5FA /* CASAtomic.swift in Sources */,
 				C4403E6827766B3D0002C5FA /* Lock-Free Queue.swift in Sources */,
 				C4403E74277671440002C5FA /* BankAccount.swift in Sources */,
+				C4403E8027771D580002C5FA /* Client.swift in Sources */,
 				C4403E66277669BA0002C5FA /* ConcurrentSkipList .swift in Sources */,
+				C4403E7E277712700002C5FA /* OperatorState.swift in Sources */,
 				C4403E5D277662230002C5FA /* main.swift in Sources */,
 				C4403E782776FEF30002C5FA /* SynchronizedArray.swift in Sources */,
 			);

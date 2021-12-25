@@ -44,8 +44,9 @@ class CASAtomic {
         {
             fatalError("ThreadStateException")
         }
+        let index = threads?.array.firstIndex(of: current)
 
-        threads?.removeAtIndex(index: 2)
+        threads?.removeAtIndex(index: index!)
     }
     
     func NotifyAll() {

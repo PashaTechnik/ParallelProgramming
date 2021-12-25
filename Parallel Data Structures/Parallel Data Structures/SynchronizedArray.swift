@@ -9,7 +9,7 @@ import Foundation
 
 
 public class SynchronizedArray<T> {
-    private var array: [T] = []
+    public var array: [T] = []
     private let accessQueue = DispatchQueue(label: "SynchronizedArrayAccess", attributes: .concurrent)
     
     public func append(newElement: T) {
